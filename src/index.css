@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: 300 7% 3%;
+    --bg2: 241 86% 62%;
+    --text: 0 0% 100%;
+    --textgrey: 250 7% 82%;
+    --accent: 250 86% 49%;
+    --cardBG: 270 3% 15%;
+    --cardBG2: 241 57% 53%;
+    --navVercel: 240 1% 29%;
+    --nav2: 241 53% 34%;
+    --icons: 270 49% 51%;
+
+    /* fonts */
+    --main: 'Clash Grotesk', sans-serif;
+  }
+}
