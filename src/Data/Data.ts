@@ -1,4 +1,12 @@
 // import { IoSettingsOutline } from 'react-icons/io5';
+import amazon from '../assets/amazon.jpg';
+import canva from '../assets/canva.jpg';
+import disney from '../assets/disney.jpg';
+import doordash from '../assets/doordash.jpg';
+import ebay from '../assets/ebay.png';
+import etsy from '../assets/etsy.jpg';
+import hulu from '../assets/hulu.jpg';
+import zoom from '../assets/zoom.jpg';
 
 const navLinks = [
   {
@@ -19,6 +27,41 @@ const navLinks = [
   },
 ];
 // TODO: infinite scroll images
+
+const infiniteLogo = [
+  {
+    id: 1,
+    image: amazon,
+  },
+  {
+    id: 2,
+    image: canva,
+  },
+  {
+    id: 3,
+    image: disney,
+  },
+  {
+    id: 4,
+    image: doordash,
+  },
+  {
+    id: 5,
+    image: ebay,
+  },
+  {
+    id: 6,
+    image: etsy,
+  },
+  {
+    id: 7,
+    image: hulu,
+  },
+  {
+    id: 8,
+    image: zoom,
+  },
+];
 
 const whatWeDo = [
   {
@@ -185,4 +228,5 @@ export {
   testimonials,
   footerLinks,
   footerSocials,
+  infiniteLogo,
 };
