@@ -1,3 +1,5 @@
+// import { IoSettingsOutline } from 'react-icons/io5';
+
 const navLinks = [
   {
     name: 'Home',
@@ -16,7 +18,6 @@ const navLinks = [
     ref: '#pricing',
   },
 ];
-
 // TODO: infinite scroll images
 
 const whatWeDo = [
@@ -25,6 +26,7 @@ const whatWeDo = [
     description:
       'Effortlessly streamline your finances with our automated expense tracking feature.',
     id: 1,
+
     // TODO: icons
   },
   {
